@@ -1,0 +1,17 @@
+*
+
+!.gitignore
+
+#EXCEPT
+!waybar/
+!waybar/*
+!VSCodium/
+VSCodium/*
+!VSCodium/User/
+!VSCodium/User/*.json
+!alacritty/
+!alacritty/*
+!systemd/
+systemd/*
+!systemd/user/
+!systemd/user/*

@@ -1,0 +1,10 @@
+[Unit]
+Description=Swww daemon wallpaper engine service
+BindsTo=hyprland-session.target
+
+[Service]
+ExecStart=/home/carlos/bin/swww-daemon
+Environment=PATH=/home/carlos/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+
+[Install]
+WantedBy=hyprland-session.target

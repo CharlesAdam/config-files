@@ -1,0 +1,10 @@
+[Unit]
+Description=Waybar Service
+BindTo=hyprland-session.target
+
+[Service]
+Type=oneshot
+ExecStart=waybar
+
+[Install]
+WantedBy=hyprland-session.target

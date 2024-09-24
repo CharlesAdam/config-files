@@ -1,0 +1,12 @@
+[Unit]
+Description=wallpaper change utility based on time
+After=swww.target
+Wants=swww.target
+
+[Service]
+Type=simple
+ExecStart=/home/carlos/bin/timepaper
+Environment=PATH=/home/carlos/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+
+[Install]
+WantedBy=default.target

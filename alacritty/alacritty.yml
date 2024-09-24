@@ -1,0 +1,15 @@
+import:
+  - ~/.config/alacritty/catpuccino-mocha.yml
+
+env:
+  TERM: xterm-256color
+
+window:
+  opacity: 0.95
+
+font:
+  size: 9.0
+
+key_bindings:
+  - { key: PageUp,  action: ScrollLineUp }
+  - { key: PageDown, action: ScrollLineDown }
